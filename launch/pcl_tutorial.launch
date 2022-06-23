@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="pcl_tutorial" type="pcl_node" name="color" output="screen">
+        <rosparam file="$(find pcl_tutorial)/params/pcl_tutorial_params.yaml" command="load"/>
+    </node>
+</launch>
